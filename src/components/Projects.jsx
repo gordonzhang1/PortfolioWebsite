@@ -56,6 +56,15 @@ export default function Projects() {
             note-taking interface, and securely stores them to your account. Try
             it for yourself by signing up now!
           </p>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
+              target="blank"
+            >
+              <strong>Demo Video</strong>
+            </a>
+          </div>
+
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
             <img className="loo-skill-item" src={html} />
@@ -99,6 +108,14 @@ export default function Projects() {
               web app, featuring an interactive 3D map that guides you from your
               exact location to the nearest washroom in the building.
             </p>
+          </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=z4kfvKR1sek"
+              target="blank"
+            >
+              <strong>Demo Video</strong>
+            </a>
           </div>
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
