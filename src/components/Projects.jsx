@@ -47,6 +47,14 @@ export default function Projects() {
               }}
             />
           </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
+              target="blank"
+            >
+              <strong>Demo Video</strong>
+            </a>
+          </div>
           <p>
             ShakespeareAI is a AI digital note-taking web app that quizzes you
             based on your handwritten notes in real-time. Press Quiz Me, and
@@ -56,14 +64,6 @@ export default function Projects() {
             note-taking interface, and securely stores them to your account. Try
             it for yourself by signing up now!
           </p>
-          <div className="sa-demo">
-            <a
-              href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
-              target="blank"
-            >
-              <strong>Demo Video</strong>
-            </a>
-          </div>
 
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
@@ -97,6 +97,14 @@ export default function Projects() {
               }}
             />
           </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=z4kfvKR1sek"
+              target="blank"
+            >
+              <strong>Demo Video</strong>
+            </a>
+          </div>
           <div className="desc-container">
             <p>Water Water Water, Loo Loo Loo!</p>
             <p>
@@ -109,14 +117,7 @@ export default function Projects() {
               exact location to the nearest washroom in the building.
             </p>
           </div>
-          <div className="sa-demo">
-            <a
-              href="https://www.youtube.com/watch?v=z4kfvKR1sek"
-              target="blank"
-            >
-              <strong>Demo Video</strong>
-            </a>
-          </div>
+
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
             <img className="loo-skill-item" src={ts} />
