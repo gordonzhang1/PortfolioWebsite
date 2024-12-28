@@ -124,6 +124,7 @@ export default function Projects() {
             <img className="loo-skill-item" src={html} />
             <img className="loo-skill-item" src={css} />
             <img className="loo-skill-item" src={react} />
+            <img className="loo-skill-item" src={docker} />
             <img className="loo-skill-item" src={git} />
             <img className="loo-skill-item" src={node} />
             <img className="loo-skill-item" src={YAML} />
