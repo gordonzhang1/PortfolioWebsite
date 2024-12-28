@@ -46,6 +46,8 @@
 * [![HTML][HTML.html]][HTML-url]
 * [![CSS][CSS.css]][CSS-url]
 * [![React][React.js]][React-url]
+* [![Vercel][Vercel]][Vercel-url]
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,4 +88,6 @@ Project Link: [https://github.com/gordonzhang1/personal-portfolio](https://githu
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
 [CSS.css]: https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://vercel.com/
 
