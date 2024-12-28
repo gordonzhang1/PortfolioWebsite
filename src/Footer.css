@@ -2,9 +2,17 @@
   height: 16vh;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
 }
 
 .footer-content {
+  font-family: "Space Grotesk";
+  color: grey;
+}
+
+.copyright {
   font-family: "Space Grotesk";
   color: grey;
 }

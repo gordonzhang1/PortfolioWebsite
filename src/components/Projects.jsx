@@ -88,7 +88,7 @@ export default function Projects() {
             <h2>LooLooLoo | Hack the North Winner</h2>
             <img
               onClick={() => {
-                window.open("https://github.com/gordonzhang1/LooLooLoo");
+                window.open("https://github.com/gordonzhang1/LooLooLoo1");
               }}
               className="github loo"
               src={github}

@@ -10,6 +10,9 @@ export default function Footer() {
           <a href="https://react.dev">React</a>, Deployed with{" "}
           <a href="https://vercel.com">Vercel</a>
         </div>
+        <div className="copyright">
+          © 2024 Gordon Zhang. All rights reserved.{" "}
+        </div>
       </div>
     </>
   );
