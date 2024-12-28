@@ -66,18 +66,22 @@ export default function Projects() {
           </p>
 
           <div className="loo-skills">
-            <img className="loo-skill-item" src={js} />
-            <img className="loo-skill-item" src={html} />
-            <img className="loo-skill-item" src={css} />
-            <img className="loo-skill-item" src={react} />
-            <img className="loo-skill-item" src={git} />
-            <img className="loo-skill-item" src={node} />
-            <img className="loo-skill-item" src={firebase} />
-            <img className="loo-skill-item" src={firestore} />
-            <img className="loo-skill-item" src={cplus} />
-            <img className="loo-skill-item" src={openai} />
-            <img className="loo-skill-item" src={cloud} />
-            <img className="loo-skill-item" src={postman} />
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={html} title="HTML" />
+            <img className="loo-skill-item" src={css} title="CSS" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={git} title="Git" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={firebase} title="Firebase" />
+            <img className="loo-skill-item" src={firestore} title="Firestore" />
+            <img className="loo-skill-item" src={cplus} title="C++" />
+            <img className="loo-skill-item" src={openai} title="OpenAI API" />
+            <img
+              className="loo-skill-item"
+              src={cloud}
+              title="Cloud Vision API"
+            />
+            <img className="loo-skill-item" src={postman} title="Postman" />
           </div>
         </div>
         <img className="loo sa" src={sa} />
@@ -119,15 +123,15 @@ export default function Projects() {
           </div>
 
           <div className="loo-skills">
-            <img className="loo-skill-item" src={js} />
-            <img className="loo-skill-item" src={ts} />
-            <img className="loo-skill-item" src={html} />
-            <img className="loo-skill-item" src={css} />
-            <img className="loo-skill-item" src={react} />
-            <img className="loo-skill-item" src={docker} />
-            <img className="loo-skill-item" src={git} />
-            <img className="loo-skill-item" src={node} />
-            <img className="loo-skill-item" src={YAML} />
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={ts} title="TypeScript" />
+            <img className="loo-skill-item" src={html} title="HTML" />
+            <img className="loo-skill-item" src={css} title="CSS" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={docker} title="Docker" />
+            <img className="loo-skill-item" src={git} title="Git" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={YAML} title="YAML" />
           </div>
         </div>
         <img className="loo" src={loo} />
