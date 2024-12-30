@@ -6,12 +6,18 @@
   height: 100vh;
 }
 
+@media (max-width: 480px) {
+  .about-container-large {
+    margin-bottom: 5vh;
+  }
+}
+
 .description-container {
   display: flex;
   flex-direction: row; /* Default to row for larger screens */
   gap: 50px;
 }
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .description-container {
     flex-direction: column; /* Stack elements vertically */
     align-items: center; /* Optional: center-align the content */

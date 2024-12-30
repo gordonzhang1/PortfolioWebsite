@@ -26,7 +26,7 @@
 /* For mobile devices */
 @media (max-width: 480px) {
   .nav-container {
-    width: 80vw; /* Increase width to fit smaller screens */
+    width: 90vw; /* Increase width to fit smaller screens */
     gap: 1vw; /* Further reduce gap */
     padding: 8px 15px; /* Smaller padding for mobile */
     border-radius: 20px; /* Smaller border radius for compact look */
