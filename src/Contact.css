@@ -27,13 +27,26 @@ a {
   display: flex;
   gap: 1vh;
   font-size: 1.1rem;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .info-container-contact li {
   align-self: flex-start;
-  display: flex;
+  list-style: none; /* Removes bullet points */
 }
 
 .school-email {
   color: black;
+}
+
+@media (max-width: 768px) {
+  .school-email,
+  .lin,
+  .git,
+  .res {
+    display: flex;
+    flex-direction: column;
+    list-style: disc; /* Ensure bullet points are displayed */
+  }
 }
