@@ -21,9 +21,6 @@ export default function About() {
           >
             <iframe
               src="https://giphy.com/embed/3o7qE1YN7aBOFPRw8E"
-              width="120%"
-              height="120%"
-              style={{ position: "absolute" }}
               frameBorder="0"
               className="giphy-embed"
               allowFullScreen
