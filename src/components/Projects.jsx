@@ -89,17 +89,19 @@ export default function Projects() {
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
-            <h2>LooLooLoo | Hack the North Winner</h2>
-            <img
-              onClick={() => {
-                window.open("https://github.com/gordonzhang1/LooLooLoo1");
-              }}
-              className="github loo"
-              src={github}
-              style={{
-                cursor: "pointer",
-              }}
-            />
+            <div className="desc-git">
+              <h2>LooLooLoo | Hack the North Winner</h2>
+              <img
+                onClick={() => {
+                  window.open("https://github.com/gordonzhang1/LooLooLoo1");
+                }}
+                className="github loo"
+                src={github}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </div>
           </div>
           <div className="sa-demo">
             <a

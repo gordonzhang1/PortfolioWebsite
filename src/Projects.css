@@ -88,22 +88,22 @@
 
 .github {
   object-fit: cover;
-  width: 9%;
-  height: auto;
-}
-
-.github.loo {
-  object-fit: cover;
-  width: 6%;
-  height: auto;
-}
-
-.github.portfolio {
-  object-fit: cover;
-  width: 4%;
+  width: 40px;
   height: auto;
 }
 
 .sa-demo {
   margin-bottom: 1vh;
+}
+
+.desc-git {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .desc-git {
+    flex-direction: column;
+  }
 }
