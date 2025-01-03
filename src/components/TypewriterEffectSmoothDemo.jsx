@@ -38,7 +38,11 @@ export function TypewriterEffectSmoothDemo() {
         </p>
         <TypewriterEffectSmooth words={words} className="z-10" />
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 z-10">
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a
+            href="/Gordon_Zhang_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="w-32 h-10 rounded-xl bg-black text-white text-sm font-bold">
               Resume
             </button>

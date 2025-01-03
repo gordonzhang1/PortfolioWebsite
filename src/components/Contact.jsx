@@ -49,7 +49,7 @@ export default function Contact() {
           <li className="res">
             Resume:&nbsp;
             <a
-              href="/resume.pdf"
+              href="/Gordon_Zhang_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "blue" }}
