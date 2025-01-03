@@ -8,6 +8,7 @@ import Contact from "./Contact";
 import Nav from "./Nav";
 import Footer from "./Footer";
 import { ThreeDCardDemo } from "./ThreeDCard";
+import { TracingBeamDemo } from "./TracingBeamDemo";
 function App() {
   return (
     <>

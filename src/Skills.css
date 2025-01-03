@@ -3,6 +3,23 @@
   margin-bottom: 10vh;
 }
 
+@media (max-width: 1200px) {
+  .skills-container {
+    margin-top: 300px;
+  }
+}
+@media (max-width: 900px) {
+  .skills-container {
+    margin-top: 700px;
+  }
+}
+
+@media (max-width: 900px) {
+  .skills-container {
+    margin-top: 1000px;
+  }
+}
+
 .skills {
   display: flex;
   flex-direction: column;
@@ -20,6 +37,7 @@
   margin-bottom: 20px;
   font-size: 4em;
   font-weight: 900;
+  font-family: sans-serif;
 }
 
 h2 {

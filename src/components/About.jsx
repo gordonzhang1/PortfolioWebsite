@@ -9,7 +9,15 @@ export default function About() {
     <>
       <div className="about-container-large">
         <div className="about-container">
-          <h1 style={{ fontSize: "4em", fontWeight: "900" }}>About Me</h1>
+          <h1
+            style={{
+              fontSize: "4em",
+              fontWeight: "900",
+              fontFamily: "sans-serif",
+            }}
+          >
+            About Me
+          </h1>
         </div>
 
         <div className="description-container">

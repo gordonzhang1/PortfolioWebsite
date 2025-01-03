@@ -4,6 +4,7 @@
   flex-direction: column;
   gap: 5%;
   gap: 2vh;
+  font-family: "Space Grotesk";
 }
 
 .card-container {
@@ -106,4 +107,12 @@
   .desc-git {
     flex-direction: column;
   }
+}
+
+.portfolio-con {
+  gap: 1vh;
+}
+
+.projectdesc {
+  margin-bottom: 15px;
 }

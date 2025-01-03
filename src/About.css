@@ -6,12 +6,6 @@
   height: 100vh;
 }
 
-@media (max-width: 480px) {
-  .about-container-large {
-    margin-bottom: 20vh;
-  }
-}
-
 .description-container {
   display: flex;
   flex-direction: row; /* Default to row for larger screens */
@@ -62,5 +56,10 @@ img {
 .threed-card-con {
   display: flex;
   gap: 2vw;
-  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .threed-card-con {
+    flex-direction: column;
+  }
 }

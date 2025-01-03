@@ -1,3 +1,11 @@
 .experience-items {
   width: 60vw;
 }
+
+.experienceheader {
+}
+@media (max-width: 468px) {
+  .experienceheader {
+    font-size: 3em !important;
+  }
+}

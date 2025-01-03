@@ -31,12 +31,21 @@ export default function Projects() {
 
   return (
     <div className="projects">
-      <h1 className="projects-header">Projects</h1>
+      <h1
+        className="projects-header"
+        style={{ fontSize: "4em", fontWeight: "1000" }}
+      >
+        Projects
+      </h1>
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
             <a href="https://shakespeareai.ca">
-              <h2>ShakespeareAI</h2>
+              <h2
+                style={{ fontSize: "1.5em", fontWeight: "900", color: "blue" }}
+              >
+                ShakespeareAI
+              </h2>
             </a>
             <img
               onClick={handleshake}
@@ -52,10 +61,12 @@ export default function Projects() {
               href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
               target="blank"
             >
-              <strong>Demo Video</strong>
+              <strong style={{ color: "blue", textDecoration: "underline" }}>
+                Demo Video
+              </strong>
             </a>
           </div>
-          <p>
+          <p className="projectdesc">
             ShakespeareAI is a AI digital note-taking web app that quizzes you
             based on your handwritten notes in real-time. Press Quiz Me, and
             ShakespeareAI transforms your notes and drawings into a personalized
@@ -90,7 +101,9 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <div className="desc-git">
-              <h2>LooLooLoo | Hack the North Winner</h2>
+              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                LooLooLoo | Hack the North Winner
+              </h2>
               <img
                 onClick={() => {
                   window.open("https://github.com/gordonzhang1/LooLooLoo1");
@@ -108,12 +121,14 @@ export default function Projects() {
               href="https://www.youtube.com/watch?v=z4kfvKR1sek"
               target="blank"
             >
-              <strong>Demo Video</strong>
+              <strong style={{ color: "blue", textDecoration: "underline" }}>
+                Demo Video
+              </strong>
             </a>
           </div>
           <div className="desc-container">
             <p>Water Water Water, Loo Loo Loo!</p>
-            <p>
+            <p className="projectdesc">
               LooLooLoo is a indoor mapping web app that directs you to the
               nearest washroom when you drink from a water fountain. When you
               drink from a water fountain, an ESP32 microcontroller detects the
@@ -140,9 +155,11 @@ export default function Projects() {
       </div>
 
       <div className="card-container">
-        <div className="header-desc">
+        <div className="header-desc portfolio-con">
           <div className="box-header portfolio">
-            <h2>Personal Portfolio</h2>
+            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+              Personal Portfolio
+            </h2>
           </div>
           <p>My Portfolio Project</p>
           <div className="loo-skills">

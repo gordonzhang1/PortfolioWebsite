@@ -3,8 +3,11 @@ import "../Contact.css";
 export default function Contact() {
   return (
     <>
-      <div className="contact-container">
-        <h1>Contact</h1>
+      <div
+        className="contact-container"
+        style={{ fontFamily: "Space Grotesk" }}
+      >
+        <h1 style={{ fontSize: "4em", fontWeight: "900" }}>Contact</h1>
         <div className="contact-desc">
           Interested in working together? I’m always open to new opportunities
           and collaborations. Drop me a message!
@@ -16,6 +19,7 @@ export default function Contact() {
               href="mailto:g234zhan@uwaterloo.ca"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: "blue" }}
             >
               g234zhan@uwaterloo.ca
             </a>
@@ -26,6 +30,7 @@ export default function Contact() {
               href="https://linkedin.com/in/gordonzhang1"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: "blue" }}
             >
               linkedin.com/in/gordonzhang1
             </a>
@@ -36,6 +41,7 @@ export default function Contact() {
               href="https://github.com/gordonzhang1"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: "blue" }}
             >
               github.com/gordonzhang1
             </a>
@@ -46,6 +52,7 @@ export default function Contact() {
               href="https://linkedin.com/in/gordonzhang1"
               target="_blank"
               rel="noopener noreferrer"
+              style={{ color: "blue" }}
             >
               linkedin.com/in/gordonzhang1
             </a>

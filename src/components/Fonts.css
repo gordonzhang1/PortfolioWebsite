@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "CalSans";
+  src: url("@/fonts/calsans.woff2") format("woff2");
+}
+
+body {
+  font-family: "CalSans", sans-serif;
+}
