@@ -6,9 +6,18 @@ export default function Footer() {
     <>
       <div className="footer-container">
         <div className="footer-content">
-          Designed with <a href="https://www.figma.com/">Figma</a>, Built with{" "}
-          <a href="https://react.dev">React</a>, Deployed with{" "}
-          <a href="https://vercel.com">Vercel</a>
+          Designed with{" "}
+          <a href="https://www.figma.com/" style={{ color: "blue" }}>
+            Figma
+          </a>
+          , Built with{" "}
+          <a href="https://react.dev" style={{ color: "blue" }}>
+            React
+          </a>
+          , Deployed with{" "}
+          <a href="https://vercel.com" style={{ color: "blue" }}>
+            Vercel
+          </a>
         </div>
         <div className="copyright">
           © 2024 Gordon Zhang. All rights reserved.{" "}
