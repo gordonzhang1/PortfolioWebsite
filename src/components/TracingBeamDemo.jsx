@@ -33,7 +33,7 @@ const dummyContent = [
       <>
         <ul className="list-disc ml-5">
           <li>
-            Developed and designed user-friendly e-Commerce web app with React &
+            Developed and designed user-friendly E-Commerce web app with React &
             Node.js, delivering 20+ client requested features and boosting brand
             recognition by 300%
           </li>
