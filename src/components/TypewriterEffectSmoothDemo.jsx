@@ -7,14 +7,14 @@ export function TypewriterEffectSmoothDemo() {
     },
     {
       text: "i",
-      className: "text-white",
+      className: "text-white !select-none",
     },
     {
       text: "I'm",
     },
     {
       text: "i",
-      className: "text-white",
+      className: "text-white !select-none",
     },
     {
       text: "Gordon",
@@ -22,7 +22,7 @@ export function TypewriterEffectSmoothDemo() {
     },
     {
       text: "i",
-      className: "text-white",
+      className: "text-white !select-none",
     },
   ];
   return (
