@@ -37,7 +37,7 @@ export default function About() {
             ></iframe>
           </div>
           <div class="description">
-            Hi! I’m Gordon Zhang, an aspiring software developer with a strong
+            Hi! I’m Gordon Zhang, an aspiring software engineer with a strong
             interest in full-stack development, machine learning, and embedded
             systems. I'm passionate about creating scalable, efficient solutions
             that address real-world challenges and optimize user experiences.

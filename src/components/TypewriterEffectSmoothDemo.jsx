@@ -1,4 +1,5 @@
 "use client";
+import { BackgroundBeams } from "./ui/background-beams";
 import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 export function TypewriterEffectSmoothDemo() {
   const words = [
@@ -27,7 +28,7 @@ export function TypewriterEffectSmoothDemo() {
   ];
   return (
     <div
-      className="flex flex-col items-center justify-center h-[45rem] mb-24"
+      className="flex flex-col items-center justify-center h-[50rem] mb-24"
       style={{ fontFamily: "space grotesk" }}
     >
       <p className="text-neutral-800 dark:text-neutral-600 text-xs sm:text-base  ">
@@ -46,6 +47,7 @@ export function TypewriterEffectSmoothDemo() {
           </button>
         </a>
       </div>
+      <BackgroundBeams />
     </div>
   );
 }
