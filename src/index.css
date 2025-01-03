@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .source-sans-3-body {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;

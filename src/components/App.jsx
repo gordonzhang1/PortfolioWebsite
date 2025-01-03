@@ -7,6 +7,7 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Nav from "./Nav";
 import Footer from "./Footer";
+import { ThreeDCardDemo } from "./ThreeDCard";
 function App() {
   return (
     <>

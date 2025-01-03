@@ -1,13 +1,15 @@
 import circle from "../assets/circle.png";
 import "../About.css";
+import { ThreeDCardDemo } from "./ThreeDCard";
+import { ThreeDCardDemo1 } from "./ThreeDCard1";
+import { ThreeDCardDemo2 } from "./ThreeDCard2";
 
 export default function About() {
   return (
     <>
       <div className="about-container-large">
         <div className="about-container">
-          <p class="get">Get to Know More</p>
-          <h1>About Me</h1>
+          <h1 style={{ fontSize: "4em", fontWeight: "900" }}>About Me</h1>
         </div>
 
         <div className="description-container">
@@ -36,11 +38,15 @@ export default function About() {
           </div>
         </div>
         <div className="education">
-          <h2>Education</h2>
+          <h2 style={{ fontSize: "1em", fontWeight: "800" }}>Education</h2>
           <div>
             University of Waterloo, BASc in Computer Engineering, Honours, Co-op
             | Sept 2024 - May 2029 |
           </div>
+        </div>
+        <div className="threed-card-con">
+          <ThreeDCardDemo />
+          <ThreeDCardDemo1 />
         </div>
       </div>
     </>

@@ -143,18 +143,6 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header portfolio">
             <h2>Personal Portfolio</h2>
-            <img
-              onClick={() => {
-                window.open(
-                  "https://github.com/gordonzhang1/personal-portfolio"
-                );
-              }}
-              className="github portfolio"
-              src={github}
-              style={{
-                cursor: "pointer",
-              }}
-            />
           </div>
           <p>My Portfolio Project</p>
           <div className="loo-skills">

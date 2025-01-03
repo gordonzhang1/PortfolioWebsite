@@ -59,5 +59,8 @@ img {
   font-size: 1.2em;
 }
 
-.giphy-embed {
+.threed-card-con {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
 }

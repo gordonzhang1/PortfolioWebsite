@@ -22,7 +22,12 @@ export default function Skills() {
 
         <div className="skills">
           <div className="lan">
-            <h2 className="h2-p">Technical Languages</h2>
+            <h2
+              className="h2-p"
+              style={{ fontWeight: "900", fontSize: "1.2em" }}
+            >
+              Technical Languages
+            </h2>
             <div className="outer-skills-container">
               <div className="sphere-space-shadow">
                 <div className="sphere-and-shadow">
@@ -131,7 +136,12 @@ export default function Skills() {
             </div>
           </div>
           <div className="web">
-            <h2 className="tools-h">Tools and Frameworks</h2>
+            <h2
+              className="tools-h"
+              style={{ fontWeight: "900", fontSize: "1.2em" }}
+            >
+              Tools and Frameworks
+            </h2>
             <div className="outer-skills-container">
               <div className="sphere-space-shadow">
                 <div className="sphere-and-shadow">
