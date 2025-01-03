@@ -49,12 +49,12 @@ export default function Contact() {
           <li className="res">
             Resume:&nbsp;
             <a
-              href="https://linkedin.com/in/gordonzhang1"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "blue" }}
             >
-              linkedin.com/in/gordonzhang1
+              Gordons Resume
             </a>
           </li>
           <li className="res">
