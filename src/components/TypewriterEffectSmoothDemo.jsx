@@ -1,0 +1,51 @@
+"use client";
+import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
+export function TypewriterEffectSmoothDemo() {
+  const words = [
+    {
+      text: "Hi",
+    },
+    {
+      text: "i",
+      className: "text-white",
+    },
+    {
+      text: "I'm",
+    },
+    {
+      text: "i",
+      className: "text-white",
+    },
+    {
+      text: "Gordon",
+      className: "text-blue-500 dark:text-blue-500",
+    },
+    {
+      text: "i",
+      className: "text-white",
+    },
+  ];
+  return (
+    <div
+      className="flex flex-col items-center justify-center h-[45rem] mb-24"
+      style={{ fontFamily: "space grotesk" }}
+    >
+      <p className="text-neutral-800 dark:text-neutral-600 text-xs sm:text-base  ">
+        Computer Engineering Student at The University of Waterloo
+      </p>
+      <TypewriterEffectSmooth words={words} />
+      <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">
+        <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+          <button className="w-32 h-10 rounded-xl bg-black text-white text-sm font-bold">
+            Resume
+          </button>
+        </a>
+        <a href="#contact">
+          <button className="w-32 h-10 rounded-xl bg-gray-300  text-black text-sm font-bold">
+            Contact
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+}

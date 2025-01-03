@@ -9,6 +9,7 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import { ThreeDCardDemo } from "./ThreeDCard";
 import { TracingBeamDemo } from "./TracingBeamDemo";
+import { TypewriterEffectSmoothDemo } from "./TypewriterEffectSmoothDemo";
 function App() {
   return (
     <>
@@ -16,13 +17,8 @@ function App() {
         <div className="nav">
           <Nav />
         </div>
-        <div className="landing">
-          <div className="landing-container">
-            <div class="name">
-              <Name />
-            </div>
-          </div>
-        </div>
+        <TypewriterEffectSmoothDemo />
+
         <div className="outer-everything">
           <div className="everything-container">
             <section id="about" className="about-section">
