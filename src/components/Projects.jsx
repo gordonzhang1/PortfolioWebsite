@@ -168,6 +168,7 @@ export default function Projects() {
             <img className="loo-skill-item" src={css} />
             <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={git} />
+            <img className="loo-skill-item" src={tailwind} />
           </div>
         </div>
       </div>
