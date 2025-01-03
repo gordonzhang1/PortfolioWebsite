@@ -31,10 +31,10 @@ export function TypewriterEffectSmoothDemo() {
       className="flex flex-col items-center justify-center h-[50rem] mb-24"
       style={{ fontFamily: "space grotesk" }}
     >
-      <p className="text-neutral-800 dark:text-neutral-600 text-xs sm:text-base  ">
+      <p className="text-neutral-800 dark:text-neutral-600 text-xs sm:text-base z-10">
         Computer Engineering Student at The University of Waterloo
       </p>
-      <TypewriterEffectSmooth words={words} />
+      <TypewriterEffectSmooth words={words} className="z-10" />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 z-10">
         <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="w-32 h-10 rounded-xl bg-black text-white text-sm font-bold">
