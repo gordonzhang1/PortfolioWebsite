@@ -59,7 +59,12 @@ export default function Contact() {
           </li>
           <li className="res">
             Phone:&nbsp;
-            <a href="tel:7787980399" target="_blank" rel="noopener noreferrer">
+            <a
+              href="tel:7787980399"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "blue" }}
+            >
               +1 (778)-798-0399
             </a>
           </li>
