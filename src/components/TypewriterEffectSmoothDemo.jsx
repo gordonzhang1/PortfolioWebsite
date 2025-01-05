@@ -47,8 +47,16 @@ export function TypewriterEffectSmoothDemo() {
               Resume
             </button>
           </a>
-          <a href="#contact">
-            <button className="w-32 h-10 rounded-xl bg-gray-300  text-black text-sm font-bold">
+          <a>
+            <button
+              className="w-32 h-10 rounded-xl bg-gray-300  text-black text-sm font-bold"
+              onClick={() => {
+                window.scrollTo({
+                  top: document.body.scrollHeight,
+                  behavior: "smooth",
+                });
+              }}
+            >
               Contact
             </button>
           </a>
