@@ -10,13 +10,12 @@ import Footer from "./Footer";
 import { ThreeDCardDemo } from "./ThreeDCard";
 import { TracingBeamDemo } from "./TracingBeamDemo";
 import { TypewriterEffectSmoothDemo } from "./TypewriterEffectSmoothDemo";
+import { NavbarDemo } from "./NavbarDemo";
 function App() {
   return (
     <>
       <div className="app-container">
-        <div className="nav">
-          <Nav />
-        </div>
+        <NavbarDemo />
         <TypewriterEffectSmoothDemo />
 
         <div className="outer-everything">
