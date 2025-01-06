@@ -70,6 +70,10 @@ const dummyContent = [
             Programmed CLI command in C to control an inverter and send CAN
             message to modify inverter EEPROM parameters
           </li>
+          <li>
+            Engineered a cooling control algorithm for a PDU, dynamically
+            controlling fan operation based on temperature thresholds
+          </li>
         </ul>
       </>
     ),
