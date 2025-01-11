@@ -3,7 +3,8 @@
   flex-direction: column;
   height: auto; /* Adjust height for responsive layout */
   font-family: "Space Grotesk";
-  height: 100vh;
+  height: 800px;
+  margin-bottom: 100px !important;
 }
 
 .description-container {
@@ -45,7 +46,7 @@ img {
 }
 
 .education {
-  margin-top: 5vh;
+  margin-top: 20px;
   font-size: 1.2rem;
 }
 

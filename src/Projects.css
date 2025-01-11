@@ -1,5 +1,5 @@
 .projects {
-  margin-top: 10vh;
+  margin-top: 150px;
   display: flex;
   flex-direction: column;
   gap: 5%;
@@ -50,7 +50,7 @@
 }
 
 .loo-skill-item {
-  height: 5vh;
+  height: 40px;
 }
 
 .box-header {

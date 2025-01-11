@@ -1,10 +1,10 @@
 .contact-container {
-  margin-top: 10vw;
-  margin-bottom: 30vh;
+  margin-top: 200px;
+  margin-bottom: 300px;
   font-family: "Space Grotesk";
   display: flex;
   flex-direction: column;
-  gap: 2vh;
+  gap: 10px;
 }
 
 .contact-desc {
@@ -25,7 +25,7 @@ a {
 .info-container-contact {
   flex-direction: column;
   display: flex;
-  gap: 1vh;
+  gap: 5px;
   font-size: 1.1rem;
   margin-left: 0;
   padding-left: 0;
