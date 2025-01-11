@@ -100,7 +100,7 @@ const dummyContent = [
             lessons in Javascript, Java and Python for 80 teachers
           </li>
           <li>
-            Developed 32 RESTful API exercises to prepare students and assisth
+            Developed 32 RESTful API exercises to prepare students and assisted
             them with making a food delivery web app
           </li>
         </ul>
