@@ -128,13 +128,14 @@ export default function Projects() {
             <p>
               {" "}
               Did you know that up to 20,000 whales per year are killed by ships
+              globally?
             </p>
             <p className="projectdesc">
-              globally? WhaleBeing is a full-stack dynamic AI prediction model
-              for whale-ship collisions. To build this, we built a machine
-              learning model in NumPy and Pandas, using a boosted regression
-              tree with open source satellite data to produce a whale
-              distribution prediction at any day of the year.
+              WhaleBeing is a full-stack dynamic AI prediction model for
+              whale-ship collisions. To build this, we built a machine learning
+              model in NumPy and Pandas, using a boosted regression tree with
+              open source satellite data to produce a whale distribution
+              prediction at any day of the year.
             </p>
           </div>
 
