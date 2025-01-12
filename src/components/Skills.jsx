@@ -13,6 +13,8 @@ import docker from "../assets/docker.png";
 import git from "../assets/git.png";
 import webpack from "../assets/webpack.png";
 import tailwind from "../assets/tailwind.png";
+import Azure from "../assets/Azure.png";
+import NumPy from "../assets/NumPy.png";
 
 export default function Skills() {
   return (
@@ -216,6 +218,32 @@ export default function Skills() {
                       alt="Python"
                       className="python-image"
                       title="Tailwind CSS"
+                    />
+                  </div>
+                  <div className="skill-shadow"></div>
+                </div>
+              </div>
+              <div className="sphere-space-shadow">
+                <div className="sphere-and-shadow">
+                  <div className="sphere-container">
+                    <img
+                      src={Azure}
+                      alt="Python"
+                      className="python-image"
+                      title="Azure"
+                    />
+                  </div>
+                  <div className="skill-shadow"></div>
+                </div>
+              </div>
+              <div className="sphere-space-shadow">
+                <div className="sphere-and-shadow">
+                  <div className="sphere-container">
+                    <img
+                      src={NumPy}
+                      alt="Python"
+                      className="python-image"
+                      title="NumPy"
                     />
                   </div>
                   <div className="skill-shadow"></div>

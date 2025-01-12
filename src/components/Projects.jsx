@@ -23,6 +23,10 @@ import portfolio from "../assets/portfolio.png";
 import firestore from "../assets/firestore.png";
 import postman from "../assets/postman.png";
 import github from "../assets/github.png";
+import WhaleBeing from "../assets/WhaleBeing.png";
+import Azure from "../assets/Azure.png";
+import NumPy from "../assets/NumPy.png";
+import Pandas from "../assets/Pandas.png";
 
 export default function Projects() {
   function handleshake() {
@@ -71,22 +75,16 @@ export default function Projects() {
             based on your handwritten notes in real-time. Press Quiz Me, and
             ShakespeareAI transforms your notes and drawings into a personalized
             set of questions, helping you retain information more effectively.
-            Built with React & Node.js, the app features a user-friendly
-            note-taking interface, and securely stores them to your account. Try
-            it for yourself by signing up now!
           </p>
 
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} title="JavaScript" />
-            <img className="loo-skill-item" src={html} title="HTML" />
-            <img className="loo-skill-item" src={css} title="CSS" />
             <img className="loo-skill-item" src={react} title="React" />
-            <img className="loo-skill-item" src={git} title="Git" />
             <img className="loo-skill-item" src={node} title="Node.js" />
             <img className="loo-skill-item" src={firebase} title="Firebase" />
             <img className="loo-skill-item" src={firestore} title="Firestore" />
-            <img className="loo-skill-item" src={cplus} title="C++" />
             <img className="loo-skill-item" src={openai} title="OpenAI API" />
+            <img className="loo-skill-item" src={git} title="Git" />
             <img
               className="loo-skill-item"
               src={cloud}
@@ -96,6 +94,67 @@ export default function Projects() {
           </div>
         </div>
         <img className="loo sa" src={sa} />
+      </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            <div className="desc-git">
+              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                WhaleBeing
+              </h2>
+              <img
+                onClick={() => {
+                  window.open("https://github.com/gordonzhang1/LooLooLoo1");
+                }}
+                className="github loo"
+                src={github}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </div>
+          </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=WyINpCzZDsw"
+              target="blank"
+            >
+              <strong style={{ color: "blue", textDecoration: "underline" }}>
+                Demo Video
+              </strong>
+            </a>
+          </div>
+          <div className="desc-container">
+            <p>
+              {" "}
+              Did you know that up to 20,000 whales per year are killed by ships
+            </p>
+            <p className="projectdesc">
+              globally? WhaleBeing is a full-stack dynamic AI prediction model
+              for whale-ship collisions. To build this, we built a machine
+              learning model in NumPy and Pandas, using a boosted regression
+              tree with open source satellite data to produce a whale
+              distribution prediction at any day of the year.
+            </p>
+          </div>
+
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={python} title="Python" />
+            <img className="loo-skill-item" src={Azure} title="Azure" />
+            <img className="loo-skill-item" src={Pandas} title="Pandas" />
+            <img className="loo-skill-item" src={NumPy} title="Numpy" />
+            <img className="loo-skill-item" src={git} title="Git" />
+            <img
+              className="loo-skill-item"
+              src={tailwind}
+              title="tailwindCSS"
+            />
+          </div>
+        </div>
+        <img className="loo whale" src={WhaleBeing} />
       </div>
       <div className="card-container">
         <div className="header-desc">
@@ -141,14 +200,14 @@ export default function Projects() {
 
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} title="JavaScript" />
-            <img className="loo-skill-item" src={ts} title="TypeScript" />
-            <img className="loo-skill-item" src={html} title="HTML" />
-            <img className="loo-skill-item" src={css} title="CSS" />
             <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={ts} title="TypeScript" />
             <img className="loo-skill-item" src={docker} title="Docker" />
             <img className="loo-skill-item" src={git} title="Git" />
-            <img className="loo-skill-item" src={node} title="Node.js" />
             <img className="loo-skill-item" src={YAML} title="YAML" />
+            <img className="loo-skill-item" src={html} />
+            <img className="loo-skill-item" src={css} />
           </div>
         </div>
         <img className="loo" src={loo} />
@@ -164,9 +223,9 @@ export default function Projects() {
           <p>My Portfolio Project</p>
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
+            <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={html} />
             <img className="loo-skill-item" src={css} />
-            <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={git} />
             <img className="loo-skill-item" src={tailwind} />
           </div>
