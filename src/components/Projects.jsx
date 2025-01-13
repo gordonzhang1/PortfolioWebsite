@@ -90,7 +90,6 @@ export default function Projects() {
               src={cloud}
               title="Cloud Vision API"
             />
-            <img className="loo-skill-item" src={postman} title="Postman" />
           </div>
         </div>
         <img className="loo sa" src={sa} />
@@ -100,11 +99,11 @@ export default function Projects() {
           <div className="box-header">
             <div className="desc-git">
               <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                WhaleBeing
+                WhaleBeing | Delta Hacks 1st Place
               </h2>
               <img
                 onClick={() => {
-                  window.open("https://github.com/gordonzhang1/LooLooLoo1");
+                  window.open("https://github.com/lucasliao0403/WhaleBeing");
                 }}
                 className="github loo"
                 src={github}
@@ -147,7 +146,6 @@ export default function Projects() {
             <img className="loo-skill-item" src={Azure} title="Azure" />
             <img className="loo-skill-item" src={Pandas} title="Pandas" />
             <img className="loo-skill-item" src={NumPy} title="Numpy" />
-            <img className="loo-skill-item" src={git} title="Git" />
             <img
               className="loo-skill-item"
               src={tailwind}
@@ -205,13 +203,12 @@ export default function Projects() {
             <img className="loo-skill-item" src={node} title="Node.js" />
             <img className="loo-skill-item" src={ts} title="TypeScript" />
             <img className="loo-skill-item" src={docker} title="Docker" />
-            <img className="loo-skill-item" src={git} title="Git" />
             <img className="loo-skill-item" src={YAML} title="YAML" />
             <img className="loo-skill-item" src={html} />
             <img className="loo-skill-item" src={css} />
           </div>
         </div>
-        <img className="loo" src={loo} />
+        <img className="loo looloo" src={loo} />
       </div>
 
       <div className="card-container">

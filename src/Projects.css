@@ -59,7 +59,7 @@
 }
 
 .loo.sa {
-  width: 60%;
+  width: 50%;
   height: 100%;
   object-fit: cover; /* Prevents image distortion */
   margin: 0;
@@ -118,6 +118,11 @@
 }
 
 .whale {
-  width: 500px;
-  height: 300px;
+  width: 50%;
+  height: 30%;
+}
+
+.looloo {
+  width: 50%;
+  height: 30%;
 }
