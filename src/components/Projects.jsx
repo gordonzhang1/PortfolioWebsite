@@ -98,9 +98,12 @@ export default function Projects() {
         <div className="header-desc">
           <div className="box-header">
             <div className="desc-git">
-              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                WhaleBeing | Delta Hacks 1st Place
-              </h2>
+              <a href="https://www.whalebeing.co/">
+                <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                  <span style={{ color: "blue" }}>WhaleBeing</span> | Delta
+                  Hacks 1st Place
+                </h2>
+              </a>
               <img
                 onClick={() => {
                   window.open("https://github.com/lucasliao0403/WhaleBeing");

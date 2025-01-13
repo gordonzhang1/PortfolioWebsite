@@ -46,6 +46,17 @@ export default function Contact() {
               github.com/gordonzhang1
             </a>
           </li>
+          <li className="git">
+            Devpost:&nbsp;
+            <a
+              href="https://devpost.com/gordonz0913"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "blue" }}
+            >
+              devpost.com/gordonz0913
+            </a>
+          </li>
           <li className="res">
             Resume:&nbsp;
             <a
