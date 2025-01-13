@@ -100,8 +100,8 @@ export default function Projects() {
             <div className="desc-git">
               <a href="https://www.whalebeing.co/">
                 <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                  <span style={{ color: "blue" }}>WhaleBeing</span> | Delta
-                  Hacks 1st Place
+                  <span style={{ color: "blue" }}>WhaleBeing</span> | DeltaHacks
+                  1st Place
                 </h2>
               </a>
               <img
