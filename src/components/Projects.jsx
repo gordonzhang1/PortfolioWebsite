@@ -52,7 +52,7 @@ export default function Projects() {
 
               <img
                 onClick={() => {
-                  window.open("https://github.com/lucasliao0403/WhaleBeing");
+                  window.open("https://github.com/gordonzhang1/WhaleBeing");
                 }}
                 className="github loo"
                 src={github}
