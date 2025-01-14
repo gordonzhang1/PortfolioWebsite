@@ -45,13 +45,75 @@ export default function Projects() {
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
-            <a href="https://shakespeareai.ca">
-              <h2
-                style={{ fontSize: "1.5em", fontWeight: "900", color: "blue" }}
-              >
-                ShakespeareAI
+            <div className="desc-git">
+              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                <span>WhaleBeing | 1st place DeltaHacks</span>
               </h2>
+
+              <img
+                onClick={() => {
+                  window.open("https://github.com/lucasliao0403/WhaleBeing");
+                }}
+                className="github loo"
+                src={github}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </div>
+          </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=WyINpCzZDsw"
+              target="blank"
+            >
+              <span style={{ color: "blue" }}>Demo Video</span> |{" "}
             </a>
+            <a href="https://www.whalebeing.co/">
+              <span
+                style={{
+                  color: "blue",
+                }}
+              >
+                Website
+              </span>
+            </a>
+          </div>
+          <div className="desc-container">
+            <p>
+              {" "}
+              Did you know that up to 20,000 whales per year are killed by ships
+              globally?
+            </p>
+            <p className="projectdesc">
+              WhaleBeing is a full-stack dynamic AI prediction model for
+              whale-ship collisions. To build this, we built a machine learning
+              model with NumPy and Pandas, using a boosted regression tree with
+              open source satellite data to produce a whale distribution
+              prediction at any day of the year.
+            </p>
+          </div>
+
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={Flask} title="Flask" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={python} title="Python" />
+            <img className="loo-skill-item" src={Azure} title="Azure" />
+            <img className="loo-skill-item" src={Pandas} title="Pandas" />
+            <img className="loo-skill-item" src={NumPy} title="Numpy" />
+          </div>
+        </div>
+        <img className="loo whale" src={WhaleBeing} />
+      </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            {" "}
+            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+              ShakespeareAI
+            </h2>
             <img
               onClick={handleshake}
               className="github"
@@ -66,9 +128,16 @@ export default function Projects() {
               href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
               target="blank"
             >
-              <strong style={{ color: "blue", textDecoration: "underline" }}>
-                Demo Video
-              </strong>
+              <span style={{ color: "blue" }}>Demo Video</span> |{" "}
+              <a href="https://shakespeareai.ca">
+                <span
+                  style={{
+                    color: "blue",
+                  }}
+                >
+                  Website
+                </span>
+              </a>
             </a>
           </div>
           <p className="projectdesc">
@@ -95,65 +164,7 @@ export default function Projects() {
         </div>
         <img className="loo sa" src={sa} />
       </div>
-      <div className="card-container">
-        <div className="header-desc">
-          <div className="box-header">
-            <div className="desc-git">
-              <a href="https://www.whalebeing.co/">
-                <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                  <span style={{ color: "blue" }}>WhaleBeing</span>
-                </h2>
-              </a>
-              <img
-                onClick={() => {
-                  window.open("https://github.com/lucasliao0403/WhaleBeing");
-                }}
-                className="github loo"
-                src={github}
-                style={{
-                  cursor: "pointer",
-                }}
-              />
-            </div>
-          </div>
-          <div className="sa-demo">
-            <a
-              href="https://www.youtube.com/watch?v=WyINpCzZDsw"
-              target="blank"
-            >
-              <strong style={{ color: "blue", textDecoration: "underline" }}>
-                Demo Video
-              </strong>
-            </a>
-          </div>
-          <div className="desc-container">
-            <p>
-              {" "}
-              Did you know that up to 20,000 whales per year are killed by ships
-              globally?
-            </p>
-            <p className="projectdesc">
-              WhaleBeing is a full-stack dynamic AI prediction model for
-              whale-ship collisions. To build this, we built a machine learning
-              model with NumPy and Pandas, using a boosted regression tree with
-              open source satellite data to produce a whale distribution
-              prediction at any day of the year.
-            </p>
-          </div>
 
-          <div className="loo-skills">
-            <img className="loo-skill-item" src={js} title="JavaScript" />
-            <img className="loo-skill-item" src={react} title="React" />
-            <img className="loo-skill-item" src={Flask} title="tailwindCSS" />
-            <img className="loo-skill-item" src={node} title="Node.js" />
-            <img className="loo-skill-item" src={python} title="Python" />
-            <img className="loo-skill-item" src={Azure} title="Azure" />
-            <img className="loo-skill-item" src={Pandas} title="Pandas" />
-            <img className="loo-skill-item" src={NumPy} title="Numpy" />
-          </div>
-        </div>
-        <img className="loo whale" src={WhaleBeing} />
-      </div>
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
@@ -178,9 +189,7 @@ export default function Projects() {
               href="https://www.youtube.com/watch?v=z4kfvKR1sek"
               target="blank"
             >
-              <strong style={{ color: "blue", textDecoration: "underline" }}>
-                Demo Video
-              </strong>
+              <span style={{ color: "blue" }}>Demo Video</span>
             </a>
           </div>
           <div className="desc-container">
@@ -217,7 +226,7 @@ export default function Projects() {
               Personal Portfolio
             </h2>
           </div>
-          <p>My Portfolio Project</p>
+          <p>This Portfolio</p>
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} />
             <img className="loo-skill-item" src={react} />
