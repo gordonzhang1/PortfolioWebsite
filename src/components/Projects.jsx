@@ -27,6 +27,7 @@ import WhaleBeing from "../assets/WhaleBeing.png";
 import Azure from "../assets/Azure.png";
 import NumPy from "../assets/NumPy.png";
 import Pandas from "../assets/Pandas.png";
+import Flask from "../assets/Flask.png";
 
 export default function Projects() {
   function handleshake() {
@@ -100,8 +101,7 @@ export default function Projects() {
             <div className="desc-git">
               <a href="https://www.whalebeing.co/">
                 <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                  <span style={{ color: "blue" }}>WhaleBeing</span> | DeltaHacks
-                  1st Place
+                  <span style={{ color: "blue" }}>WhaleBeing</span>
                 </h2>
               </a>
               <img
@@ -144,16 +144,12 @@ export default function Projects() {
           <div className="loo-skills">
             <img className="loo-skill-item" src={js} title="JavaScript" />
             <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={Flask} title="tailwindCSS" />
             <img className="loo-skill-item" src={node} title="Node.js" />
             <img className="loo-skill-item" src={python} title="Python" />
             <img className="loo-skill-item" src={Azure} title="Azure" />
             <img className="loo-skill-item" src={Pandas} title="Pandas" />
             <img className="loo-skill-item" src={NumPy} title="Numpy" />
-            <img
-              className="loo-skill-item"
-              src={tailwind}
-              title="tailwindCSS"
-            />
           </div>
         </div>
         <img className="loo whale" src={WhaleBeing} />
@@ -163,7 +159,7 @@ export default function Projects() {
           <div className="box-header">
             <div className="desc-git">
               <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                LooLooLoo | Hack the North Winner
+                LooLooLoo
               </h2>
               <img
                 onClick={() => {
