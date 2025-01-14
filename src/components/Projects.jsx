@@ -135,7 +135,7 @@ export default function Projects() {
             <p className="projectdesc">
               WhaleBeing is a full-stack dynamic AI prediction model for
               whale-ship collisions. To build this, we built a machine learning
-              model in NumPy and Pandas, using a boosted regression tree with
+              model with NumPy and Pandas, using a boosted regression tree with
               open source satellite data to produce a whale distribution
               prediction at any day of the year.
             </p>
