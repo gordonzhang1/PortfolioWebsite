@@ -16,6 +16,8 @@ import tailwind from "../assets/tailwind.png";
 import Azure from "../assets/Azure.png";
 import NumPy from "../assets/NumPy.png";
 import sql from "../assets/sql.png";
+import flask from "../assets/Flask.png";
+import Vue from "../assets/Vue.png";
 
 export default function Skills() {
   return (
@@ -177,6 +179,19 @@ export default function Skills() {
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
+                      src={flask}
+                      alt="Python"
+                      className="python-image ts"
+                      title="Flask"
+                    />
+                  </div>
+                  <div className="skill-shadow"></div>
+                </div>
+              </div>
+              <div className="sphere-space-shadow">
+                <div className="sphere-and-shadow">
+                  <div className="sphere-container">
+                    <img
                       src={docker}
                       alt="Python"
                       className="python-image ts"
@@ -246,6 +261,19 @@ export default function Skills() {
                       alt="Python"
                       className="python-image"
                       title="NumPy"
+                    />
+                  </div>
+                  <div className="skill-shadow"></div>
+                </div>
+              </div>
+              <div className="sphere-space-shadow">
+                <div className="sphere-and-shadow">
+                  <div className="sphere-container">
+                    <img
+                      src={Vue}
+                      alt="Python"
+                      className="python-image"
+                      title="Vue"
                     />
                   </div>
                   <div className="skill-shadow"></div>
