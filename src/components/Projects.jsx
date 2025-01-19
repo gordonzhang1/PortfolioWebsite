@@ -199,13 +199,8 @@ export default function Projects() {
           <div className="desc-container">
             <p>Water Water Water, Loo Loo Loo!</p>
             <p className="projectdesc">
-              LooLooLoo is a indoor mapping web app that directs you to the
-              nearest washroom when you drink from a water fountain. When you
-              drink from a water fountain, an ESP32 microcontroller detects the
-              bluetooth signal from your phone, and using Twilio, sends an SMS
-              containing a custom link. This link directs you to the LooLooLoo
-              web app, featuring an interactive 3D map that guides you from your
-              exact location to the nearest washroom in the building.
+              LooLooLoo is a full-stack indoor mapping web app that directs you
+              to the nearest washroom when you drink from a water fountain.
             </p>
           </div>
 
