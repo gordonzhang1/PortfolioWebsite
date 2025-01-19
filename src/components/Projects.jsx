@@ -28,6 +28,10 @@ import Azure from "../assets/Azure.png";
 import NumPy from "../assets/NumPy.png";
 import Pandas from "../assets/Pandas.png";
 import Flask from "../assets/Flask.png";
+import biggerpicture from "../assets/biggerpicture.png";
+import Vue from "../assets/Vue.png";
+import mysql from "../assets/mysql.png";
+import sql from "../assets/sql.png";
 
 export default function Projects() {
   function handleshake() {
@@ -218,7 +222,44 @@ export default function Projects() {
         </div>
         <img className="loo looloo" src={loo} />
       </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            <div className="desc-git">
+              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                TheBiggerPicture
+              </h2>
+              <img
+                onClick={() => {
+                  window.open("https://github.com/Raptors65/uofthacks-12");
+                }}
+                className="github loo"
+                src={github}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </div>
+          </div>
 
+          <div className="desc-container">
+            <p className="projectdesc">
+              The Bigger Picture is a real-time photo mosaic collaboration web
+              app.
+            </p>
+          </div>
+
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={Vue} title="Vue" />
+            <img className="loo-skill-item" src={Flask} title="Flask" />
+            <img className="loo-skill-item" src={python} title="Python" />
+            <img className="loo-skill-item" src={sql} title="SQL" />
+            <img className="loo-skill-item" src={mysql} title="MySQL" />
+          </div>
+        </div>
+        <img className="loo looloo" src={biggerpicture} />
+      </div>
       <div className="card-container">
         <div className="header-desc portfolio-con">
           <div className="box-header portfolio">

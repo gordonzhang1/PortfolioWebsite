@@ -15,6 +15,7 @@ import webpack from "../assets/webpack.png";
 import tailwind from "../assets/tailwind.png";
 import Azure from "../assets/Azure.png";
 import NumPy from "../assets/NumPy.png";
+import sql from "../assets/sql.png";
 
 export default function Skills() {
   return (
@@ -122,11 +123,12 @@ export default function Skills() {
                   <div className="skill-shadow"></div>
                 </div>
               </div>
+
               <div className="sphere-space-shadow java">
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
-                      src={java}
+                      src={sql}
                       alt="Python"
                       className="python-image java"
                       title="Java"
