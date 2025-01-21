@@ -33,25 +33,26 @@ const dummyContent = [
       <>
         <ul className="list-disc ml-5">
           <li>
-            Developed and designed user-friendly E-Commerce web app with React &
-            Node.js, delivering 20+ client requested features and boosting brand
-            recognition by 300%
+            Directed development team through app life cycle using Typescript,
+            React, and Node.js to prioritize scalability, resulting in a 284%
+            increase in user traffic
           </li>
           <li>
-            Optimized check out page by integrating a time-sensitive discount
-            algorithm with Python boosting customer purchases by 23%
+            Enhanced checkout security by developing and integrating RESTful
+            APIs and Stripe APIs webhooks with Express and Node.js, resulting in
+            a 49% reduction in checkout errors
           </li>
           <li>
-            Engineered RESTful APIs using Express.js for secure OAuth system
-            with Firebase for easy email login and signup
+            Delivered 20+ client requested features by collaborating with
+            stakeholders, deploying prototype to production in 6 weeks
           </li>
           <li>
-            Enhanced checkout security by integrating Stripe API's webhooks with
-            Node.js, reducing checkout errors by 12%
+            Optimized checkout page by developing a time-sensitive discount
+            algorithm with Python, boosting purchases by 23%
           </li>
           <li>
             Programmed cart, checkout, and order systems with React to optimize
-            transaction flow, increasing conversion rates by 38%
+            transaction flow, reducing checkout time by 46%
           </li>
         </ul>
       </>
@@ -93,7 +94,7 @@ const dummyContent = [
           </li>
           <li>
             Programmed 50 coding puzzles in JavaScript and 32 RESTful API
-            exercises, increasing classroom engagement by 32%
+            exercises, increasing classroom engagement by 212%
           </li>
           <li>
             Spearheaded curriculum development by developing 10 week-long
