@@ -34,7 +34,7 @@ const dummyContent = [
         <ul className="list-disc ml-5">
           <li>
             Directed development team through app life cycle using Typescript,
-            React, and Node.js to prioritize scalability, resulting in a 284%
+            React, and Node.js to prioritize scalability, resulting in a 280%
             increase in user traffic
           </li>
           <li>
@@ -52,7 +52,7 @@ const dummyContent = [
           </li>
           <li>
             Programmed cart, checkout, and order systems with React to optimize
-            transaction flow, reducing checkout time by 46%
+            transaction flow, reducing checkout time by 40%
           </li>
         </ul>
       </>
@@ -94,7 +94,7 @@ const dummyContent = [
           </li>
           <li>
             Programmed 50 coding puzzles in JavaScript and 32 RESTful API
-            exercises, increasing classroom engagement by 212%
+            exercises, increasing classroom engagement by 200%
           </li>
           <li>
             Spearheaded curriculum development by developing 10 week-long
