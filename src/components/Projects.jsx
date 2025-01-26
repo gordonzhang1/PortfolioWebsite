@@ -120,62 +120,6 @@ export default function Projects() {
           <div className="box-header">
             {" "}
             <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-              ShakespeareAI
-            </h2>
-            <img
-              onClick={handleshake}
-              className="github"
-              src={github}
-              style={{
-                cursor: "pointer",
-              }}
-            />
-          </div>
-          <div className="sa-demo">
-            <a
-              href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
-              target="blank"
-            >
-              <span style={{ color: "blue" }}>Demo Video</span> |{" "}
-              <a href="https://shakespeareai.ca">
-                <span
-                  style={{
-                    color: "blue",
-                  }}
-                >
-                  Website
-                </span>
-              </a>
-            </a>
-          </div>
-          <p className="projectdesc">
-            ShakespeareAI is a AI digital note-taking web app that quizzes you
-            based on your handwritten notes in real-time. Press Quiz Me, and
-            ShakespeareAI transforms your notes and drawings into a personalized
-            set of questions, helping you retain information more effectively.
-          </p>
-
-          <div className="loo-skills">
-            <img className="loo-skill-item" src={js} title="JavaScript" />
-            <img className="loo-skill-item" src={react} title="React" />
-            <img className="loo-skill-item" src={node} title="Node.js" />
-            <img className="loo-skill-item" src={firebase} title="Firebase" />
-            <img className="loo-skill-item" src={firestore} title="Firestore" />
-            <img className="loo-skill-item" src={openai} title="OpenAI API" />
-            <img
-              className="loo-skill-item"
-              src={cloud}
-              title="Cloud Vision API"
-            />
-          </div>
-        </div>
-        <img className="loo sa" src={sa} />
-      </div>
-      <div className="card-container">
-        <div className="header-desc">
-          <div className="box-header">
-            {" "}
-            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
               SoccerMetrics
             </h2>
             <img
@@ -230,6 +174,63 @@ export default function Projects() {
         </div>
         <img className="loo sa" src={soccer} />
       </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            {" "}
+            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+              ShakespeareAI
+            </h2>
+            <img
+              onClick={handleshake}
+              className="github"
+              src={github}
+              style={{
+                cursor: "pointer",
+              }}
+            />
+          </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=lmbQf5aHT-o"
+              target="blank"
+            >
+              <span style={{ color: "blue" }}>Demo Video</span> |{" "}
+              <a href="https://shakespeareai.ca">
+                <span
+                  style={{
+                    color: "blue",
+                  }}
+                >
+                  Website
+                </span>
+              </a>
+            </a>
+          </div>
+          <p className="projectdesc">
+            ShakespeareAI is a AI digital note-taking web app that quizzes you
+            based on your handwritten notes in real-time. Press Quiz Me, and
+            ShakespeareAI transforms your notes and drawings into a personalized
+            set of questions, helping you retain information more effectively.
+          </p>
+
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={js} title="JavaScript" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={node} title="Node.js" />
+            <img className="loo-skill-item" src={firebase} title="Firebase" />
+            <img className="loo-skill-item" src={firestore} title="Firestore" />
+            <img className="loo-skill-item" src={openai} title="OpenAI API" />
+            <img
+              className="loo-skill-item"
+              src={cloud}
+              title="Cloud Vision API"
+            />
+          </div>
+        </div>
+        <img className="loo sa" src={sa} />
+      </div>
+
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
