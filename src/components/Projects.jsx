@@ -32,6 +32,10 @@ import biggerpicture from "../assets/biggerpicture.png";
 import Vue from "../assets/Vue.png";
 import mysql from "../assets/mysql.png";
 import sql from "../assets/sql.png";
+import soccer from "../assets/soccer.png";
+import mediapipe from "../assets/mediapipe.png";
+import clouddeploy from "../assets/clouddeploy.png";
+import kuber from "../assets/kuber.png";
 
 export default function Projects() {
   function handleshake() {
@@ -158,7 +162,6 @@ export default function Projects() {
             <img className="loo-skill-item" src={firebase} title="Firebase" />
             <img className="loo-skill-item" src={firestore} title="Firestore" />
             <img className="loo-skill-item" src={openai} title="OpenAI API" />
-            <img className="loo-skill-item" src={git} title="Git" />
             <img
               className="loo-skill-item"
               src={cloud}
@@ -168,7 +171,65 @@ export default function Projects() {
         </div>
         <img className="loo sa" src={sa} />
       </div>
+      <div className="card-container">
+        <div className="header-desc">
+          <div className="box-header">
+            {" "}
+            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+              SoccerMetrics
+            </h2>
+            <img
+              onClick={() => {
+                window.open("https://github.com/gordonzhang1/SoccerMetrics");
+              }}
+              className="github"
+              src={github}
+              style={{
+                cursor: "pointer",
+              }}
+            />
+          </div>
+          <div className="sa-demo">
+            <a
+              href="https://www.youtube.com/watch?v=Ng-EbAInbGE"
+              target="blank"
+            >
+              <span style={{ color: "blue" }}>Demo Video</span>
+              {/* <a href="https://shakespeareai.ca">
+                <span
+                  style={{
+                    color: "blue",
+                  }}
+                >
+                  Website
+                </span>
+              </a> */}
+            </a>
+          </div>
+          <p className="projectdesc">
+            SoccerMetrics is a AI soccer shot analysis platform to improve
+            kicking form.
+          </p>
 
+          <div className="loo-skills">
+            <img className="loo-skill-item" src={ts} title="Typescript" />
+            <img className="loo-skill-item" src={react} title="React" />
+            <img className="loo-skill-item" src={Flask} title="Flask" />
+            <img className="loo-skill-item" src={mediapipe} title="MediaPipe" />
+            <img className="loo-skill-item" src={Pandas} title="Pandas" />
+            <img className="loo-skill-item" src={docker} title="Docker" />
+            <img className="loo-skill-item" src={openai} title="OpenAI API" />
+
+            <img
+              className="loo-skill-item"
+              src={clouddeploy}
+              title="Google Cloud Deploy"
+            />
+            <img className="loo-skill-item" src={kuber} title="Kubernetes" />
+          </div>
+        </div>
+        <img className="loo sa" src={soccer} />
+      </div>
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
@@ -268,7 +329,6 @@ export default function Projects() {
             <img className="loo-skill-item" src={react} />
             <img className="loo-skill-item" src={html} />
             <img className="loo-skill-item" src={css} />
-            <img className="loo-skill-item" src={git} />
             <img className="loo-skill-item" src={tailwind} />
           </div>
         </div>
