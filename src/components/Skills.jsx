@@ -18,6 +18,8 @@ import NumPy from "../assets/NumPy.png";
 import sql from "../assets/sql.png";
 import flask from "../assets/Flask.png";
 import Vue from "../assets/Vue.png";
+import kuber from "../assets/kuber.png";
+import clouddeploy from "../assets/clouddeploy.png";
 
 export default function Skills() {
   return (
@@ -201,27 +203,14 @@ export default function Skills() {
                   <div className="skill-shadow"></div>
                 </div>
               </div>
-              <div className="sphere-space-shadow">
-                <div className="sphere-and-shadow">
-                  <div className="sphere-container">
-                    <img
-                      src={git}
-                      alt="Python"
-                      className="python-image ts"
-                      title="Git"
-                    />
-                  </div>
-                  <div className="skill-shadow"></div>
-                </div>
-              </div>
               <div className="sphere-space-shadow six">
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
-                      src={webpack}
+                      src={kuber}
                       alt="Python"
                       className="python-image cplus"
-                      title="Webpack"
+                      title="Kubernetes"
                     />
                   </div>
                   <div className="skill-shadow"></div>
@@ -244,6 +233,19 @@ export default function Skills() {
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
+                      src={clouddeploy}
+                      alt="Python"
+                      className="python-image"
+                      title="Google Cloud Deploy"
+                    />
+                  </div>
+                  <div className="skill-shadow"></div>
+                </div>
+              </div>
+              <div className="sphere-space-shadow">
+                <div className="sphere-and-shadow">
+                  <div className="sphere-container">
+                    <img
                       src={Azure}
                       alt="Python"
                       className="python-image"
@@ -253,14 +255,15 @@ export default function Skills() {
                   <div className="skill-shadow"></div>
                 </div>
               </div>
+
               <div className="sphere-space-shadow">
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
-                      src={NumPy}
+                      src={Vue}
                       alt="Python"
                       className="python-image"
-                      title="NumPy"
+                      title="Vue"
                     />
                   </div>
                   <div className="skill-shadow"></div>
@@ -270,10 +273,10 @@ export default function Skills() {
                 <div className="sphere-and-shadow">
                   <div className="sphere-container">
                     <img
-                      src={Vue}
+                      src={git}
                       alt="Python"
-                      className="python-image"
-                      title="Vue"
+                      className="python-image ts"
+                      title="Git"
                     />
                   </div>
                   <div className="skill-shadow"></div>

@@ -149,7 +149,8 @@ export default function Projects() {
           </div>
           <p className="projectdesc">
             SoccerMetrics is a AI soccer shot analysis platform to improve
-            kicking form.
+            kicking form. It extracts pose landmarks with MediaPipe GHUM 3D for
+            biomechanical metrics and Ultralytics YOLOv8 for ball detection.
           </p>
 
           <div className="loo-skills">
