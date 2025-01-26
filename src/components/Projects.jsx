@@ -103,11 +103,9 @@ export default function Projects() {
             <img className="loo-skill-item" src={js} title="JavaScript" />
             <img className="loo-skill-item" src={react} title="React" />
             <img className="loo-skill-item" src={Flask} title="Flask" />
-            <img className="loo-skill-item" src={node} title="Node.js" />
             <img className="loo-skill-item" src={python} title="Python" />
             <img className="loo-skill-item" src={Azure} title="Azure" />
             <img className="loo-skill-item" src={Pandas} title="Pandas" />
-            <img className="loo-skill-item" src={NumPy} title="Numpy" />
           </div>
         </div>
         <img className="loo whale" src={WhaleBeing} />
