@@ -135,7 +135,7 @@ export default function Skills() {
                       src={sql}
                       alt="Python"
                       className="python-image java"
-                      title="Java"
+                      title="SQL"
                     />
                   </div>
                   <div className="skill-shadow"></div>
