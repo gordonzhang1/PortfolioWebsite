@@ -36,6 +36,7 @@ import soccer from "../assets/soccer.png";
 import mediapipe from "../assets/mediapipe.png";
 import clouddeploy from "../assets/clouddeploy.png";
 import kuber from "../assets/kuber.png";
+import personal from "../assets/personal.png";
 
 export default function Projects() {
   function handleshake() {
@@ -205,9 +206,8 @@ export default function Projects() {
           </div>
           <p className="projectdesc">
             ShakespeareAI is a AI digital note-taking web app that quizzes you
-            based on your handwritten notes in real-time. Press Quiz Me, and
-            ShakespeareAI transforms your notes and drawings into a personalized
-            set of questions, helping you retain information more effectively.
+            based on your handwritten notes in real-time. It transforms your
+            notes and drawings into a personalized set of questions.
           </p>
 
           <div className="loo-skills">
@@ -296,9 +296,17 @@ export default function Projects() {
           </div>
 
           <div className="desc-container">
+            <div className="sa-demo">
+              <a
+                href="https://www.youtube.com/watch?v=EpfvE0dZnCM"
+                target="blank"
+              >
+                <span style={{ color: "blue" }}>Demo Video</span>
+              </a>
+            </div>
             <p className="projectdesc">
-              The Bigger Picture is a real-time photo mosaic collaboration web
-              app.
+              The Bigger Picture is an interactive AI photo mosaic web app with
+              synchronized back-end collaboration.
             </p>
           </div>
 
