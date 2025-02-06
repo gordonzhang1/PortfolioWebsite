@@ -37,12 +37,12 @@ export default function About() {
             ></iframe>
           </div>
           <div class="description">
-            Hi! I’m Gordon Zhang, an aspiring software engineer with a strong
-            interest in full-stack development, machine learning, and embedded
-            systems. I'm passionate about creating scalable, efficient solutions
-            that address real-world challenges and optimize user experiences.
-            Originally from Vancouver, BC, I’m now based in Waterloo, ON, hoping
-            to make an impact by developing world changing technologies.
+            Hi! I’m Gordon Zhang, a full-stack developer with a strong interest
+            in machine learning, UI/UX design, and cloud computing. I'm
+            passionate about creating scalable, efficient solutions that address
+            real-world challenges and optimize user experiences. Originally from
+            Vancouver, BC, I’m now based in Waterloo, ON, hoping to make an
+            impact by developing world changing technologies.
           </div>
         </div>
         <div className="education">
@@ -50,6 +50,13 @@ export default function About() {
           <div>
             University of Waterloo, BASc in Computer Engineering, Honours, Co-op
             | Sept 2024 - May 2029 |
+          </div>
+        </div>
+        <div className="education">
+          <h2 style={{ fontSize: "1em", fontWeight: "800" }}>Awards</h2>
+          <div>
+            DeltaHacks 1st Place Overall • Hack the North Winner • GeeseHacks
+            Winner
           </div>
         </div>
         <div className="threed-card-con">

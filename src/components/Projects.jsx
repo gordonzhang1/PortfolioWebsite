@@ -116,7 +116,7 @@ export default function Projects() {
           <div className="box-header">
             {" "}
             <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-              SoccerMetrics
+              SoccerMetrics | Geesehacks Winner
             </h2>
             <img
               onClick={() => {
@@ -232,7 +232,7 @@ export default function Projects() {
           <div className="box-header">
             <div className="desc-git">
               <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-                LooLooLoo
+                LooLooLoo | Hack the North Winner
               </h2>
               <img
                 onClick={() => {
