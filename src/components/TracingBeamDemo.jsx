@@ -34,7 +34,7 @@ const dummyContent = [
         <ul className="list-disc ml-5">
           <li>
             Directed development team through app life cycle using Typescript,
-            React, and Node.js to prioritize scalability, resulting in a 280%
+            React, and Node.js to prioritize scalability, resulting in a 284%
             increase in user traffic
           </li>
           <li>
@@ -47,12 +47,8 @@ const dummyContent = [
             stakeholders, deploying prototype to production in 6 weeks
           </li>
           <li>
-            Optimized checkout page by developing a time-sensitive discount
-            algorithm with Python, boosting purchases by 23%
-          </li>
-          <li>
             Programmed cart, checkout, and order systems with React to optimize
-            transaction flow, reducing checkout time by 40%
+            transaction flow, reducing checkout time by 46%
           </li>
         </ul>
       </>
@@ -83,7 +79,7 @@ const dummyContent = [
       "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Software Curriculum Developer & Co-Founder",
+    title: "Co-founder and Web Development Tutor",
     subtitle: "ARTex Coding Society | Jan 2023 - May 2024",
     description: (
       <>
@@ -93,16 +89,12 @@ const dummyContent = [
             students across 4 countries by leading curriculum design
           </li>
           <li>
-            Programmed 50 coding puzzles in JavaScript and 32 RESTful API
-            exercises, increasing classroom engagement by 200%
+            Programmed 55 RESTful API and React puzzles in Javascript, leading
+            to a 212% increase in student completion rates
           </li>
           <li>
             Spearheaded curriculum development by developing 10 week-long
             lessons in Javascript, Java and Python for 80 teachers
-          </li>
-          <li>
-            Developed 32 RESTful API exercises to prepare students and assisted
-            them with making a food delivery web app
           </li>
         </ul>
       </>
