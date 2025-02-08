@@ -114,20 +114,22 @@ export default function Projects() {
       <div className="card-container">
         <div className="header-desc">
           <div className="box-header">
-            {" "}
-            <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
-              SoccerMetrics | Geesehacks Winner
-            </h2>
-            <img
-              onClick={() => {
-                window.open("https://github.com/gordonzhang1/SoccerMetrics");
-              }}
-              className="github"
-              src={github}
-              style={{
-                cursor: "pointer",
-              }}
-            />
+            <div className="desc-git">
+              <h2 style={{ fontSize: "1.5em", fontWeight: "900" }}>
+                <span>SoccerMetrics | GeeseHacks Winner</span>
+              </h2>
+
+              <img
+                onClick={() => {
+                  window.open("https://github.com/gordonzhang1/SoccerMetrics");
+                }}
+                className="github loo"
+                src={github}
+                style={{
+                  cursor: "pointer",
+                }}
+              />
+            </div>
           </div>
           <div className="sa-demo">
             <a
