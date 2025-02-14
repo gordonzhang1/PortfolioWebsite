@@ -137,7 +137,7 @@ export default function Projects() {
               target="blank"
             >
               <span style={{ color: "blue" }}>Demo Video</span> |{" "}
-              <a href="https://soccer-metrics-eentv5epz-gordonzhang1s-projects.vercel.app/">
+              <a href="https://soccer-metrics.vercel.app/">
                 <span
                   style={{
                     color: "blue",
