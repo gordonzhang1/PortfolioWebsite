@@ -136,8 +136,8 @@ export default function Projects() {
               href="https://www.youtube.com/watch?v=Ng-EbAInbGE"
               target="blank"
             >
-              <span style={{ color: "blue" }}>Demo Video</span>
-              {/* <a href="https://shakespeareai.ca">
+              <span style={{ color: "blue" }}>Demo Video</span> |{" "}
+              <a href="https://soccer-metrics-eentv5epz-gordonzhang1s-projects.vercel.app/">
                 <span
                   style={{
                     color: "blue",
@@ -145,7 +145,7 @@ export default function Projects() {
                 >
                   Website
                 </span>
-              </a> */}
+              </a>
             </a>
           </div>
           <p className="projectdesc">
