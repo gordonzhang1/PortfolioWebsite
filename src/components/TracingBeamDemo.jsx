@@ -59,7 +59,7 @@ const dummyContent = [
   },
   {
     title: "Firmware Developer",
-    subtitle: "UW Formula Electric | Sept 2024 - Present",
+    subtitle: "UW Formula Electric | Sept 2024 - Feb 2025",
     description: (
       <>
         <ul className="list-disc ml-5">
@@ -79,7 +79,7 @@ const dummyContent = [
       "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    title: "Co-founder and Web Development Tutor",
+    title: "Frontend Developer",
     subtitle: "ARTex Coding Society | Jan 2023 - May 2024",
     description: (
       <>
@@ -89,12 +89,24 @@ const dummyContent = [
             students across 4 countries by leading curriculum design
           </li>
           <li>
-            Programmed 55 RESTful API and React puzzles in Javascript, leading
-            to a 212% increase in student completion rates
+            Developed a web portal using React to track student progress,
+            reducing administrative workload by 42%
           </li>
           <li>
-            Spearheaded curriculum development by developing 10 week-long
-            lessons in Javascript, Java and Python for 80 teachers
+            Improved responsiveness and optimized DOM rendering using HTML, CSS,
+            and JavaScript, increasing site traffic by 30%
+          </li>
+          <li>
+            Revamped outdated lesson plan repository, implementing Git best
+            practices to improve maintainability for 25+ contributors
+          </li>
+          <li>
+            Designed 55 RESTful API and React puzzles in JavaScript, leading to
+            a 212% increase in student completion rates
+          </li>
+          <li>
+            Managed end-to-end lifecycle of 15 web features, from planning and
+            development to deployment, ensuring timely delivery
           </li>
         </ul>
       </>
@@ -110,8 +122,8 @@ const dummyContent = [
       <>
         <ul className="list-disc ml-5">
           <li>
-            Delivered hands-on instruction in HTML, CSS, and Javascript to 12
-            high school students
+            Delivered hands-on instruction in HTML, CSS, and Javascript to high
+            school students
           </li>
           <li>
             Guided students in building dynamic web pages by creating
