@@ -44,7 +44,7 @@
 
 * [![JavaScript][JavaScript.js]][JavaScript-url]
 * [![HTML][HTML.html]][HTML-url]
-* [![CSS][CSS.css]][CSS-url]
+* [![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 * [![React][React.js]][React-url]
 * [![Vercel][Vercel]][Vercel-url]
 
@@ -90,4 +90,6 @@ Project Link: [https://github.com/gordonzhang1/personal-portfolio](https://githu
 [CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
 [Vercel]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
 [Vercel-url]: https://vercel.com/
+[TailwindCSS]: https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white
+[TailwindCSS-url]: https://tailwindcss.com/
 
