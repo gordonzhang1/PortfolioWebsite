@@ -48,8 +48,8 @@ export default function About() {
         <div className="education">
           <h2 style={{ fontSize: "1em", fontWeight: "800" }}>Education</h2>
           <div>
-            University of Waterloo, BASc in Computer Engineering, Honours, Co-op
-            | Sept 2024 - May 2029 |
+            University of Waterloo, Candidate for BASc in Computer Engineering,
+            Honours, Co-op
           </div>
         </div>
         <div className="education">

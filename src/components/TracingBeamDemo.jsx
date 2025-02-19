@@ -28,7 +28,7 @@ export function TracingBeamDemo() {
 const dummyContent = [
   {
     title: "Fullstack Developer",
-    subtitle: "BLNDSPT Labs | Sept 2024 - Present",
+    subtitle: "Blndspt | Sept 2024 - Present",
     description: (
       <>
         <ul className="list-disc ml-5">
@@ -80,7 +80,7 @@ const dummyContent = [
   },
   {
     title: "Frontend Developer",
-    subtitle: "ARTex Coding Society | Jan 2023 - May 2024",
+    subtitle: "Artex Coding Society | Jan 2023 - May 2024",
     description: (
       <>
         <ul className="list-disc ml-5">

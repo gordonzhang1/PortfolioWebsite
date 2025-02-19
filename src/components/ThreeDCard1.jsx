@@ -12,7 +12,7 @@ export function ThreeDCardDemo1() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          UW Computer Engineering
+          AI Enthusiast
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <img
